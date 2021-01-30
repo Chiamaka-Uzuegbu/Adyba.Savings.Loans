@@ -19,6 +19,9 @@ namespace Adyba.Savings.Loans.Data
         {
         }
 
+        public DbSet<CustomerData> customerDatas { get; set; }
+        public DbSet<SavingsAccountModel> savingsAccounts { get; set; }
+
        
     }
 }
